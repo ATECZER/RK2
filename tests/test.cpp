@@ -1,3 +1,10 @@
+#include "../tree.cpp"
+#include "gtest/gtest.h"
+
+using namespace std;
+
+
+
 TEST(Tree, EmptyTree) {
     vector<int> out_expect = {0};
     vector<int> out;
